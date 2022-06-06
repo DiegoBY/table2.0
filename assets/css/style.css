@@ -1,0 +1,73 @@
+/* === Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* === Reset Básico === */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* === Body === */
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+body .img {
+    background-image: url('../images/bg-white.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -2;  
+    filter: grayscale(1) url('#gold-sunset') contrast(0.4) blur(0.5px);
+}
+
+/* === Table === */
+table {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+/* === Table Thead === */
+table tr {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+table tr th {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table tr #hashtag {
+    padding-left: 25px;
+}
+
+
+/* === Table Tbody === */
+table tr td {
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: #000 0.2em 0.2em 0.2em;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    width: 100vw;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(135, 135, 135, .4);
+}
+/* HELLO =) */
